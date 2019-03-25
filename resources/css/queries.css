@@ -1,0 +1,437 @@
+/* big tablets to pc */
+
+@media only screen and (max-width: 1200px) {
+ 
+    .hero-text-box {
+        
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        
+        padding: 0 2%;
+    }
+    
+}
+
+/* small tablets to big tablets */
+
+@media only screen and (max-width: 1023px) {
+    
+    body {
+        
+        font-size: 18px;
+    }
+    
+    h1 {
+        
+        font-size: 280%;
+    }
+    
+    section {
+        
+        padding: 60px 0;
+    }
+    
+    .long-copy {
+        
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    
+    
+    .box p {
+        
+        font-size: 80%;
+        text-align: center;
+    }
+    
+    .steps-box {
+        
+        margin-top: 10px;
+    }
+    
+    .steps-box:last-child {
+        
+        margin-top: 40px;
+    }
+    
+    .works-step {
+        
+        margin-bottom: 40px;
+    }
+    
+    .works-step:last-of-type {
+        
+        margin-bottom: 60px;
+    }
+    
+    .app-screen {
+        
+        width: 50%;
+    }
+    
+    .btn-app img {
+        
+        margin: 0 0 0 1%;
+        width: auto;
+        
+    }
+    
+    .testimonials-header {
+        
+        font-size: 180%;
+    }
+    
+    .testimonials-header:after {
+        
+        width: 700px;
+    }
+    
+    blockquote {
+        
+        font-size: 90%;
+    }
+    
+    cite {
+        
+        font-size: 90%;
+        padding: 0;
+    }
+    
+    .small-icons {
+        
+        width: 17px;
+    }
+    .city-heading {
+        
+        font-size: 81%;
+    }
+    
+    
+    .city-feature {
+        
+        font-size: 76%;
+    }
+    
+    .plan-box {
+        
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    
+    .plan-price {
+        
+       font-size: 280%;
+    }
+    
+    .plan-box ul {
+        
+        font-size: 82%;
+    }
+    
+    .contact-form {
+        
+        width: 90%;
+    }
+    
+    .contact-form input[type=submit] {
+        
+        width: 35%;
+    }
+    
+    .footer-nav {
+        
+        width: 120%;
+    }
+    
+    .social-links {
+        
+        font-size: 100%;
+    }
+    
+    footer p {
+        
+        font-size: 90%;
+    }
+}
+
+/* small phones to small tablets */
+
+@media only screen and (max-width: 767px) {
+    
+    body {
+        
+        font-size: 16px;
+    
+    }
+    
+    section {
+        
+        padding: 30px 0;
+    }
+    
+    header {
+         
+        background-repeat: no-repeat;
+        
+    }
+    
+    .row,
+    .hero-text-box {
+        
+        padding: 0 4%;
+    
+    }
+    
+    
+    .col {
+        
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    h2:after {
+        
+        width: 10%;
+    }
+    
+    
+    h2 {
+        
+        font-size: 170%;
+    }
+
+    
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+        
+    .big-icons {
+        
+        padding-left: 48%;
+    }
+    
+    
+    /* MEALS */
+    
+    .meals-showcase li {
+        
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+    
+   .meal-photo img {
+    
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    
+}
+
+.meal-photo img:hover {
+    
+    opacity: 0.9;
+    transform: scale(1.0);
+}
+    
+    
+    
+    
+    /* STEPS */
+    
+      .steps-box:first-child {
+        
+        text-align: center;
+    }
+    
+    .app-screen {
+        
+        width: 40%;
+    }
+    
+    .btn-app {
+        
+        margin-left: 6%;
+    }
+    
+    /* TESTIMONIALS */
+    
+    .sections-testimonials {
+        
+        font-size: 120%;
+    }
+    
+    .testimonials-header:after {
+        
+        width: 10%;
+    }
+    
+    /* CITIES */
+    
+    .section-cities h3, .city-feature {
+        
+        font-size: 120%;
+    }
+    
+    .section-cities img {
+        
+        width: 80%;
+        margin-left: 11%;
+    }
+    
+    /* PLANS */
+    
+    .plans-header:after {
+        
+        width: 10%;
+    }
+    
+    .section-plans .col {
+        
+        font-size: 120%;
+        margin: 0 auto 7% 14%;
+        width: 70%;
+        vertical-align: middle;
+        
+    }
+    
+    .plan-price {
+        
+        font-size: 350%;
+    }
+    
+    /* FOOTER */
+    
+    .social-links .small-icons  {
+        
+        
+        line-height: 2.5;
+        font-size: 190%;
+    
+    }
+    
+    .social-links li {
+        
+        margin-right: 15%;
+        vertical-align: middle;
+    }
+    
+    .social-links {
+        
+        padding-top: 5%;
+        margin-right: 25%;
+    }
+    
+    .footer-nav {
+        
+        display: inline-block;
+        margin-left: 5%;
+        padding-right: 0%;
+        font-size: 140%;
+    }
+    
+    footer p {
+        
+        padding: -20px auto;
+        margin: 0 auto;
+    }
+}
+
+/* small phones - from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {
+    
+    section {
+        
+        padding: 25px 0;
+    }
+    .mani-navi {
+        
+        font-size: 90%;
+    }
+    .hero-text-box {
+        
+        font-size: 90%;
+    }
+    header {
+        
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        
+    }
+    .section-steps img {
+        
+        width: 40%;
+    }
+    
+    .meals-showcase {
+        
+        font-size: 30%;
+    }
+    
+    .meals-showcase li {
+        
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+    
+    .contact-form {
+        
+        width: 100%;
+    }
+    
+    .footer-nav {
+        
+        
+        margin-left: 0;
+        font-size: 120%;
+    }
+}
+
+
+
+
